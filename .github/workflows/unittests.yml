@@ -14,7 +14,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install test dependencies
-        run: pip install pytest numpy pandas scikit-learn statsmodels
+        run: pip install pytest numpy pandas scikit-learn statsmodels scipy
 
       - name: Run tests
         run: python -m pytest tests/ -v
