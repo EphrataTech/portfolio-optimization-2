@@ -1,1 +1,12 @@
 pytest
+yfinance
+pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+pmdarima
+scikit-learn
+tensorflow
+keras
+scipy
